@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e8cefb18d3.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/sytle.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fugaz+One&family=Lalezar&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@500&display=swap');
+      </style>
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector('.menu_line').addEventListener('click', function(){
+                if(document.querySelector('.menu nav ul').style.display == 'flex'){
+                    document.querySelector('.menu nav ul').style.display = 'none'
+                }else{
+                    document.querySelector('.menu nav ul').style.display = 'flex'
+                }
+            })
+
+            document.querySelector('#f1').addEventListener('click', function(){
+                if(document.querySelector('#f1 .het').style.display == 'flex'){
+                    document.querySelector('#f1 .het').style.display = 'none'
+                    document.querySelector('#f1 .heart').style.display = 'flex'
+                }else{
+                    document.querySelector('#f1 .heart').style.display = 'none'
+                    document.querySelector('#f1 .het').style.display = 'flex'
+                }
+            })
+
+
+            document.querySelector('#f2').addEventListener('click', function(){
+                if(document.querySelector('#f2 .het').style.display == 'flex'){
+                    document.querySelector('#f2 .het').style.display = 'none'
+                    document.querySelector('#f2 .heart').style.display = 'flex'
+                }else{
+                    document.querySelector('#f2 .heart').style.display = 'none'
+                    document.querySelector('#f2 .het').style.display = 'flex'
+                }
+            })
+
+            document.querySelector('#f3').addEventListener('click', function(){
+                if(document.querySelector('#f3 .het').style.display == 'flex'){
+                    document.querySelector('#f3 .het').style.display = 'none'
+                    document.querySelector('#f3 .heart').style.display = 'flex'
+                }else{
+                    document.querySelector('#f3 .heart').style.display = 'none'
+                    document.querySelector('#f3 .het').style.display = 'flex'
+                }
+            })
+
+            document.querySelector('#f4').addEventListener('click', function(){
+                if(document.querySelector('#f4 .het').style.display == 'flex'){
+                    document.querySelector('#f4 .het').style.display = 'none'
+                    document.querySelector('#f4 .heart').style.display = 'flex'
+                }else{
+                    document.querySelector('#f4 .heart').style.display = 'none'
+                    document.querySelector('#f4 .het').style.display = 'flex'
+                }
+            })
+        }
+
+
+        
+        </script>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <h1><vlogo class="p_logo">GANG</vlogo> <vlogo class="b_logo">SAUCE</vlogo></h1>
+            <div class="inicio_menu">
+                <div class="menu">
+                    <nav>
+                        <div class="menu_line">
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                        </div>
+                        <ul>
+                            <li><a href="#">Jaquetas</a></li>
+                            <li><a href="#">Camisas</a></li>
+                            <li><a href="#">Moletons</a></li>
+                            <li><a href="#">Calças</a></li>
+                            <li><a href="#">Bermudas</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner_title">
+                <h1>Faça Seu Drip <br> Tenha seu próprio Swag</h1>
+            </div>
+            <div class="banner_sub">
+                Veja nossa nova coleção, também nossos futuros lançamentos, fazendo seu cadastro no site você não perde nenhuma da nossas novidades e também garante desconto e campanhas no site 
+            </div>
+            <div class="banner_view">
+                <div class="banner_box">
+                    <a href="#">View Coletion</a>
+                </div>
+            </div>
+        </section>
+        <aside>
+            <div class="beneficio">
+                <i class="fa-solid fa-truck-fast"></i>
+                <div class="bene_info">
+                    <h4>Entregamos em todo Brasil!</h4>
+                    Entregas para todo o Brasil, com frete justo e o mais rápido com duas opções o frete normal que chega em até 8 dias uteis ou frete trubo que chega em até 2 dias uteis. 
+                </div>
+            </div>
+            <div class="beneficio">
+                <i class="fa-solid fa-sack-dollar"></i>
+                <div class="bene_info">
+                    <h4>Devolução de dinheiro!</h4>
+                    Caso não goste ou não fique satisfeito com o produto tem até 7 dias para devolução, com resarcimento total do valor
+                </div>
+            </div>
+            <div class="beneficio">
+                <i class="fa-solid fa-rotate-left"></i>
+                <div class="bene_info">
+                    <h4>Cashback para você!</h4>
+                    Ganhe cashback nos produtos comprados para você, todo o produto que você comprar volta 2% do valor final para você comprar mais no nosso site e aproveitar a melhor experiência
+                </div>
+            </div>
+        </aside>
+        <section class="venda">
+            <h4>Em Promoção</h4>
+            <div class="produto">
+                <div class="promo">
+                    <div class="info_add">
+                        <div class="sale">Sale</div>
+                        <div class="favorito" id="f1">
+                            <i class="fa-regular fa-heart het" ></i>
+                            <i class="fa-solid fa-heart heart" ></i>
+                        </div>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="img/bone.png">
+                            <figcaption>Boné Uzi-Rose</figcaption>
+                        </figure>
+                    </div>
+                    <div class="desconto">
+                        <div class="desconto_1"><s>R$150</s> - <ds class="ds"> - 37% off</ds></div>
+                        <div class="desconto_2">R$94,5</div>
+                    </div>
+                    <button class="btn">Adicionar</button>
+                </div>
+                <div class="promo">
+                    <div class="info_add">
+                        <div class="sale">Sale</div>
+                        <div class="favorito" id="f2">
+                            <i class="fa-regular fa-heart het" ></i>
+                            <i class="fa-solid fa-heart heart" ></i>
+                        </div>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="img/camisa.png">
+                            <figcaption>Camisa Flame-ON</figcaption>
+                        </figure>
+                    </div>
+                    <div class="desconto">
+                        <div class="desconto_1"><s>R$110</s> - <ds class="ds"> - 18% off</ds></div>
+                        <div class="desconto_2">R$90,2</div>
+                    </div>
+                    <button class="btn">Adicionar</button>
+                </div>
+                <div class="promo">
+                    <div class="info_add">
+                        <div class="sale">Sale</div>
+                        <div class="favorito" id="f3">
+                            <i class="fa-regular fa-heart het" ></i>
+                            <i class="fa-solid fa-heart heart" ></i>
+                        </div>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="img/jaqueta.png">
+                            <figcaption>Jaqueta NBA</figcaption>
+                        </figure>
+                    </div>
+                    <div class="desconto">
+                        <div class="desconto_1"><s>R$450</s> - <ds class="ds"> - 20% off</ds></div>
+                        <div class="desconto_2">R$360,0</div>
+                    </div>
+                    <button class="btn">Adicionar</button>
+                </div>
+                <div class="promo">
+                    <div class="info_add">
+                        <div class="sale">Sale</div>
+                        <div class="favorito" id="f4">
+                            <i class="fa-regular fa-heart het" ></i>
+                            <i class="fa-solid fa-heart heart" ></i>
+                        </div>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="img/moletom.png">
+                            <figcaption>Moletom Travis-Scott</figcaption>
+                        </figure>
+                    </div>
+                    <div class="desconto">
+                        <div class="desconto_1"><s>R$780</s> - <ds class="ds"> - 29% off</ds></div>
+                        <div class="desconto_2">R$553,8</div>
+                    </div>
+                    <button class="btn">Adicionar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_inicio">
+            <div class="footer_info">
+                <h3>Encontre uma loja Gang Sauce</h3>
+                <div class="footer_link">
+                    <a href="#">Cadastre-se para receber novidades</a>
+                    <a href="#">Cartão presente</a>
+                    <a href="#">Mapa do site</a>
+                </div>
+            </div>
+            <div class="footer_info">
+                <h3>Ajuda</h3>
+                <div class="footer_link">
+                    <a href="#">Dúvidas Gerais</a>
+                    <a href="#">Encontre seu tamanho</a>
+                    <a href="#">Entregas</a>
+                    <a href="#">Pedidos</a>
+                    <a href="#">Trocas e Devoluções</a>
+                    <a href="#">Pagamentos</a>
+                    <a href="#">Produtos</a>
+                    <a href="#">Corporativo</a>
+                    <a href="#">Fale Conosco</a>
+                </div>
+            </div>
+            <div class="footer_info">
+                <h3>Sobre a Gang Sauce</h3>
+                <div class="footer_link">
+                    <a href="#">Feito para seu style</a>
+                    <a href="#">Sustentabilildade</a>
+                    <a href="#">Sobre a Gang Sauce</a>
+                    <a href="#">Sobre nossas parcerias</a>
+                </div>
+            </div>
+            <div class="footer_info">
+                <h3>Redes Sociais Do Criador</h3>
+                <div>
+                    <a href="https://www.instagram.com/joaonaif/?hl=pt-br"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-naif-de-abreu-887bb2271/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/JoaoNaif"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <h3>Formas de Pagamento</h3>
+                <div class="pagamento">
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                    <i class="fa-brands fa-paypal"></i>
+                    <i class="fa-brands fa-pix"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer_fim">
+            <div class="termos">
+                <a href="#">Brasil</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Uso</a>
+            </div>
+            <div class="copy">
+                Criado por @João-Naif, com referências de sites: Nike, StockX, Adidas,Centauro
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
